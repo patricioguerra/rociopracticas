@@ -6,11 +6,11 @@ import "bootstrap/scss/bootstrap.scss";
 import "assets/scss/paper-kit.scss?v=1.3.0";
 import "assets/demo/demo.css?v=1.3.0";
 // pages
-import Index from "./views/Index.js";
-import Narrativa from "./views/vistasRocio/narrativa";
-import Niveles from "./views/vistasRocio/niveles";
-import RegisterPage from "./views/examples/RegisterPage.js";
-import Recompensas from "./views/vistasRocio/recompensas";
+import Index from "views/Index.js";
+import Narrativa from "views/vistasRocio/narrativa";
+import Niveles from "views/vistasRocio/niveles";
+import RegisterPage from "views/examples/RegisterPage.js";
+import Recompensas from "views/vistasRocio/recompensas";
 
 
 function App() {
