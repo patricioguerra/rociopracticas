@@ -51,7 +51,7 @@ deportivos a medida que vayan avanzando en la vuelta al mundo deportiva.</p>
               <div className="conteneur-principal"
               style={{
                 backgroundImage:
-                  "url(" + require("assets/img/instagram.png") + ")"
+                  "url(" + require("../../assets/img/instagram.png") + ")"
               }}>
             </div>
             </a>
@@ -64,7 +64,7 @@ deportivos a medida que vayan avanzando en la vuelta al mundo deportiva.</p>
                 <div className="conteneur-principal"
                 style={{
                   backgroundImage:
-                    "url(" + require("assets/img/instagram.png") + ")"
+                    "url(" + require("../../assets/img/instagram.png") + ")"
                 }}>
               </div>
               </a>

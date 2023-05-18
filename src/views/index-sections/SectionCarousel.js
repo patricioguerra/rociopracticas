@@ -34,15 +34,15 @@ import {
 
 const items = [
   {
-    src: require("assets/img/rocio4.png"),
+    src: require("../../assets/img/rocio4.png"),
     
   },
   {
-    src: require("assets/img/rocio2.jpg"),
+    src: require("../../assets/img/rocio2.jpg"),
     
   },
   {
-    src: require("assets/img/rocio3.jpg"),
+    src: require("../../assets/img/rocio3.jpg"),
     
   }
 ];
