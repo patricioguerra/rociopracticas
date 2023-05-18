@@ -21,13 +21,13 @@ import React from "react";
 // reactstrap components
 
 // core components
-import IndexNavbar from "../components/Navbars/IndexNavbar.js";
-import IndexHeader from "../components/Headers/IndexHeader.js";
+import IndexNavbar from "components/Navbars/IndexNavbar.js";
+import IndexHeader from "components/Headers/IndexHeader.js";
 
 
 // index sections
-import SectionButtons from "../views/index-sections/SectionButtons.js";
-import SectionCarousel from "../views/index-sections/SectionCarousel.js";
+import SectionButtons from "views/index-sections/SectionButtons.js";
+import SectionCarousel from "views/index-sections/SectionCarousel.js";
 
 
 function Index() {
