@@ -30,7 +30,14 @@ function SectionExamples() {
         <Container>
           <Row className="example-page">
             <Col className="text-center" md="6">
-              
+              <a href="examples/landing.html" target="_blank">
+                <img
+                  alt="..."
+                  className="img-rounded img-responsive"
+                  src={require("assets/img/examples/landing-page.png")}
+                  style={{ width: "100%" }}
+                />
+              </a>
               <Button
                 className="btn-outline-neutral btn-round"
                 color="default"
@@ -41,7 +48,14 @@ function SectionExamples() {
               </Button>
             </Col>
             <Col className="text-center" md="6">
-              
+              <a href="examples/profile.html" target="_blank">
+                <img
+                  alt="..."
+                  className="img-rounded img-responsive"
+                  src={require("assets/img/examples/profile-page.png")}
+                  style={{ width: "100%" }}
+                />
+              </a>
               <Button
                 className="btn-outline-neutral btn-round"
                 color="default"

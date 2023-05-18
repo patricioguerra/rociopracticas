@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container } from 'reactstrap';
 import ReactPlayer from 'react-player'
-import SectionNavbar from '../../components/Navbars/SectionsNavbar';
+import SectionNavbar from 'components/Navbars/SectionsNavbar';
 
 function Niveles(props) {
   return (
-<div style={{ minHeight: "100vh",  backgroundImage: "url(" + require("../../assets/img/niveles.png") + ")"}}>
+<div style={{ minHeight: "100vh",  backgroundImage: "url(" + require("assets/img/niveles.png") + ")"}}>
           <SectionNavbar/>
 
       <div className="section-buttons" style={{padding: "0 !important"}}>

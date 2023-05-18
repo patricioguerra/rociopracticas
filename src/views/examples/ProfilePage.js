@@ -63,7 +63,11 @@ function ProfilePage() {
         <Container>
           <div className="owner">
             <div className="avatar">
-              
+              <img
+                alt="..."
+                className="img-circle img-no-padding img-responsive"
+                src={require("assets/img/faces/joe-gardner-2.jpg")}
+              />
             </div>
             <div className="name">
               <h4 className="title">
@@ -122,7 +126,11 @@ function ProfilePage() {
                     <li>
                       <Row>
                         <Col className="ml-auto mr-auto" lg="2" md="4" xs="4">
-                          
+                          <img
+                            alt="..."
+                            className="img-circle img-no-padding img-responsive"
+                            src={require("assets/img/faces/clem-onojeghuo-2.jpg")}
+                          />
                         </Col>
                         <Col className="ml-auto mr-auto" lg="7" md="4" xs="4">
                           <h6>
@@ -148,7 +156,11 @@ function ProfilePage() {
                     <li>
                       <Row>
                         <Col className="mx-auto" lg="2" md="4" xs="4">
-                          
+                          <img
+                            alt="..."
+                            className="img-circle img-no-padding img-responsive"
+                            src={require("assets/img/faces/ayo-ogunseinde-2.jpg")}
+                          />
                         </Col>
                         <Col lg="7" md="4" xs="4">
                           <h6>

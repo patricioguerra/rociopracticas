@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container } from 'reactstrap';
 import ReactPlayer from 'react-player'
-import SectionNavbar from '../../components/Navbars/SectionsNavbar';
+import SectionNavbar from 'components/Navbars/SectionsNavbar';
 
 function Narrativa(props) {
   return (
-<div style={{ minHeight: "100vh",  backgroundImage: "url(" + require("../../assets/img/biblio2.png") + ")"}}>
+<div style={{ minHeight: "100vh",  backgroundImage: "url(" + require("assets/img/biblio2.png") + ")"}}>
           <SectionNavbar/>
 
       <div className="section-buttons" style={{padding: "0 !important"}}>

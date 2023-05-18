@@ -39,7 +39,9 @@ function SectionLogin() {
     <>
       <div
         className="section section-image section-login"
-        
+        style={{
+          backgroundImage: "url(" + require("assets/img/login-image.jpg") + ")"
+        }}
       >
         <Container>
           <Row>

@@ -43,7 +43,10 @@ function SectionNavigation() {
         <div id="navbar">
           <div
             className="navigation-example"
-            
+            style={{
+              backgroundImage:
+                "url(" + require("assets/img/ilya-yakover.jpg") + ")"
+            }}
           >
             <Navbar className="bg-primary" expand="lg">
               <Container>
