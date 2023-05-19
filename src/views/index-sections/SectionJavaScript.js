@@ -18,7 +18,6 @@
 */
 import React from "react";
 // react plugin used to create datetimepicker
-import ReactDatetime from "react-datetime";
 
 // reactstrap components
 import {
@@ -207,11 +206,7 @@ function SectionJavaScript() {
                 <Col sm="6">
                   <FormGroup>
                     <InputGroup className="date" id="datetimepicker">
-                      <ReactDatetime
-                        inputProps={{
-                          placeholder: "Datetime Picker Here"
-                        }}
-                      />
+                      
                       <InputGroupAddon addonType="append">
                         <InputGroupText>
                           <span className="glyphicon glyphicon-calendar">
