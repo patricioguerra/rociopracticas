@@ -29,6 +29,8 @@ import IndexHeader from "components/Headers/IndexHeader.js";
 import SectionButtons from "views/index-sections/SectionButtons.js";
 import SectionCarousel from "views/index-sections/SectionCarousel.js";
 import Narrativa from "./vistasRocio/narrativa";
+import Niveles from "./vistasRocio/niveles";
+import Recompensas from "./vistasRocio/recompensas";
 
 
 function Index() {
@@ -51,6 +53,8 @@ function Index() {
         <SectionButtons />
       </div></>}
     {path === "/narrativa" && <Narrativa />}
+    {path === "/niveles" && <Niveles />}
+    {path === "/recompensas" && <Recompensas />}
     </>
 
   );
