@@ -28,25 +28,31 @@ import IndexHeader from "components/Headers/IndexHeader.js";
 // index sections
 import SectionButtons from "views/index-sections/SectionButtons.js";
 import SectionCarousel from "views/index-sections/SectionCarousel.js";
+import Narrativa from "./vistasRocio/narrativa";
 
 
 function Index() {
+  const path = window.location.pathname
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {
     document.body.classList.add("index");
     return function cleanup() {
       document.body.classList.remove("index");
     };
+
   });
+
   return (
     <>
-      <IndexNavbar />
+    {path === "/" && <><IndexNavbar />
       <IndexHeader />
       <div className="main">
       <SectionCarousel />
         <SectionButtons />
-      </div>
+      </div></>}
+    {path === "/narrativa" && <Narrativa />}
     </>
+
   );
 }
 
