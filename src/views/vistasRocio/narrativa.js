@@ -17,14 +17,13 @@ function Narrativa(props) {
           <ReactPlayer url={'https://youtu.be/sbzdZAZI3B0'} controls={true}/>
           </div>
           <div>
-            <p style={{fontSize: 20, fontWeight: 600, marginBottom: 40, color: 'black'}}>
-                ¡Hola aventureros de 5º curso de primaria! Soy el Dr. Sullivan y tengo una apuesta para
-                vosotros. Apuesto toda vuestra fortuna a que no seréis capaces de recorrer el mundo en 80
-                días como el grandísimo Phileas Fogg.<br></br><br></br>
-                Para dar la vuelta al mundo necesitáis mucho esfuerzo y superación. En cada país que visitéis
-                conoceréis diferentes deportes y juegos que os permitirán seguir avanzando en vuestro viaje
-                hasta llegar a dar la vuelta completa al mundo. ¿Seréis capaces?
-            </p>
+          <div style={{display: "flex", justifyContent: "center", textAlign: "center", padding: "0"}}>
+          <div 
+            style={{ display: 'flex', margin: "5px", justifyContent: 'center', marginBottom: 50, height: 500, width: 600, backgroundSize:"100% 100%",
+              backgroundImage:
+                "url(" + require("assets/img/narrativa.jpg") + ")"
+            }}/>
+            </div>
           </div>
         
           

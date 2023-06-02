@@ -1,21 +1,3 @@
-/*!
-
-=========================================================
-* Paper Kit React - v1.3.1
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/paper-kit-react
-
-* Copyright 2022 Creative Tim (https://www.creative-tim.com)
-* Licensed under MIT (https://github.com/creativetimofficial/paper-kit-react/blob/main/LICENSE.md)
-
-* Coded by Creative Tim
-
-=========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-*/
 import React from "react";
 
 // reactstrap components
@@ -31,6 +13,9 @@ import SectionCarousel from "views/index-sections/SectionCarousel.js";
 import Narrativa from "./vistasRocio/narrativa";
 import Niveles from "./vistasRocio/niveles";
 import Recompensas from "./vistasRocio/recompensas";
+import Presentacion from "./vistasRocio/presentacion";
+import Aventureros from "./vistasRocio/aventureros";
+import Retos from "./vistasRocio/retos";
 
 
 function Index() {
@@ -53,8 +38,11 @@ function Index() {
         <SectionButtons />
       </div></>}
     {path === "/narrativa" && <Narrativa />}
+    {path === "/presentacion" && <Presentacion />}
     {path === "/niveles" && <Niveles />}
     {path === "/recompensas" && <Recompensas />}
+    {path === "/aventureros" && <Aventureros />}
+    {path === "/retos" && <Retos />}
     </>
 
   );

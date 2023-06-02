@@ -11,6 +11,8 @@ import Narrativa from "views/vistasRocio/narrativa";
 import Niveles from "views/vistasRocio/niveles";
 import RegisterPage from "views/examples/RegisterPage.js";
 import Recompensas from "views/vistasRocio/recompensas";
+import Presentacion from "views/vistasRocio/presentacion";
+import Aventureros from "views/vistasRocio/aventureros";
 // others
 
 function App() {
@@ -19,6 +21,14 @@ function App() {
       <BrowserRouter>
     <Switch>
       <Route path="/" render={(props) => <Index {...props} />} />
+      <Route
+        path="/presentacion"
+        render={(props) => <Presentacion {...props} />}
+      />
+      <Route
+        path="/aventureros"
+        render={(props) => <Aventureros {...props} />}
+      />
       <Route
         path="/narrativa"
         render={(props) => <Narrativa {...props} />}

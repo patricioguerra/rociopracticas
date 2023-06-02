@@ -91,7 +91,13 @@ function IndexNavbar() {
           isOpen={navbarCollapse}
         >
           <Nav navbar>
-            
+          <NavItem>
+              <NavLink
+                href="/presentacion"
+              >
+                <i className="nc-icon nc-pin-3" /> Presentación
+              </NavLink>
+            </NavItem>
           <NavItem>
               <NavLink
                 href="/narrativa"
@@ -101,9 +107,17 @@ function IndexNavbar() {
             </NavItem>
             <NavItem>
               <NavLink
+                href="/aventureros"
+              >
+                <i className="nc-icon nc-pin-3" /> Aventureros
+              </NavLink>
+            </NavItem>
+
+            <NavItem>
+              <NavLink
                 href="/niveles"
               >
-                <i className="nc-icon nc-pin-3" /> Niveles y tipos de jugadores
+                <i className="nc-icon nc-pin-3" /> Niveles
               </NavLink>
             </NavItem>
             <NavItem>
@@ -117,20 +131,9 @@ function IndexNavbar() {
               <NavLink
                 href="/retos"
               >
-                <i className="nc-icon nc-chart-bar-32" /> Retos deportivos
+                <i className="nc-icon nc-chart-bar-32" /> Retos
               </NavLink>
             </NavItem>
-            <NavItem>
-              <NavLink
-                href="/tics"
-              >
-                <i className="nc-icon nc-ruler-pencil" /> ¡Utiliza las tic!
-              </NavLink>
-            </NavItem>
-            
-           
-            
-            
           </Nav>
         </Collapse>
       </Container>
